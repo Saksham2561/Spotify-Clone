@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+.left{
+    width: 25%;
+    padding: 10px;
+}
+.right{
+    color: white;
+    width: 75%;
+}
+.home ul li {
+    width: 14px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    font : bold;
+}
+.home ul{
+    margin-left: -35px;
+}
+.heading {
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    font : bold;
+    font-size: 10px;
+}
+.heading img{
+    width: 20px;
+}
+.footer{
+    display: flex;
+    gap:5px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 50px;
+}
+.footer div a span{
+    color: #a7a7a7;
+}
+.footer div a {
+    text-decoration: none;
+}
+.library{
+    min-height: 1000px;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.5);
+    padding-top: 25px;
+}
+.buttons{
+    margin-bottom: 35px;
+}
+.spotifyPlaylists{
+    padding-left: 15px;
+    
+}
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 70vh;
+
+}
+.card{
+    width: 165px;
+    background-color:#181818;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    position: relative;
+
+}
+.card img{
+    width: 100px;
+}
+.play{
+    width: 15px;
+    height: 15px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 110px;
+    top: 100px;
+}
+.buttons{
+}
+.signupbtn{
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(69, 69, 69);
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white; 
+    cursor: pointer;
+}
+.loginbtn{
+    margin-right: 30px;
+    background-color: white;
+    color: #181818;
+    border-radius: 21px;
+    padding: 10px;
+    width: 90px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.loginbtn:hover{
+    width: 92px;
+}
